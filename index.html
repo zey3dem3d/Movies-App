@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/home3.jpg" />
+    <title>Movies App</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@300;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700&family=Tajawal:wght@200;300;400;500;800;900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!------------------------------------------- Navbar ------------------------------------------->
+    <nav
+      class="navbar navbar-expand-lg px-0 px-sm-5 fixed-top text-center"
+      id="nav"
+    >
+      <div class="container-fluid">
+        <a
+          href="#home"
+          class="navbar-brand d-flex align-items-center fs-5 logo"
+        >
+          <i class="fa-solid fa-film fs-4 me-2"></i> Movies
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 py-3">
+            <li class="nav-item position-relative mx-4">
+              <a class="nav-link home-active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item position-relative mx-4">
+              <a class="nav-link" aria-current="page" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item position-relative mx-4">
+              <a class="nav-link" aria-current="page" href="#comingSoon"
+                >Coming Soon</a
+              >
+            </li>
+            <li class="nav-item position-relative mx-4">
+              <a class="nav-link" aria-current="page" href="#newsletter"
+                >Newsletter</a
+              >
+            </li>
+          </ul>
+          <a href="#" class="btn text-white rounded-3 px-4 py-2 fw-normal"
+            >Sign In</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!------------------------------------------- Home ------------------------------------------->
+    <section id="home" class="home w-100">
+      <div class="home-text">
+        <span class="fw-medium text-uppercase text-black">Marvel Universe</span>
+        <h2 class="fw-bold mb-4 text-white">
+          Spider-Man<br />
+          Far From Home
+        </h2>
+        <a href="#" class="btn text-white px-4 py-2 rounded-3 fw-normal"
+          >Book Now</a
+        >
+      </div>
+    </section>
+    <!------------------------------------------- Movies ------------------------------------------->
+    <section id="movies" class="movies container px-5">
+      <h2 class="heading fw-medium fs-5 text-uppercase text-white mx-auto">
+        Opening this Week
+      </h2>
+      <div class="row mt-4 mx-auto justify-content-center">
+        <!-- Box 1 -->
+        <div class="box p-1 col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m1.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Venom</h3>
+          <span>120min | Action</span>
+        </div>
+        <!-- Box 2 -->
+        <div class="box p-1 col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m2.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Dunkerk</h3>
+          <span>105min | Adventure</span>
+        </div>
+        <!-- Box 3 -->
+        <div class="box p-1 col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m3.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Batman & Superman</h3>
+          <span>100min | Thriller</span>
+        </div>
+        <!-- Box 4-->
+        <div class="box p-1 col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m4.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>John Wick</h3>
+          <span>120min | Adventure</span>
+        </div>
+        <!-- Box 5-->
+        <div class="box p-1 col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m5.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Aquaman</h3>
+          <span>130min | Action</span>
+        </div>
+      </div>
+      <div class="row mt-4 justify-content-center mt-4">
+        <!-- Box 6-->
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m3.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Black Panther</h3>
+          <span>90min | Thriller</span>
+        </div>
+        <!-- Box 7-->
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m1.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Thor</h3>
+          <span>130min | Action</span>
+        </div>
+        <!-- Box 8-->
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m3.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Bumblebee</h3>
+          <span>100min | Thriller</span>
+        </div>
+        <!-- Box 9-->
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m5.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Mortal Engines</h3>
+          <span>100min | Action</span>
+        </div>
+        <!-- Box 10-->
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/m4.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>UnderWorld Blood Wars</h3>
+          <span>100min | Action</span>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------- Coming Soon ------------------------------------------->
+    <section id="comingSoon" class="coming">
+      <h2 class="heading fw-medium fs-5 text-uppercase text-white mx-auto">
+        Coming Soon
+      </h2>
+      <div class="row mt-4 mx-auto justify-content-center boxes">
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming1.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Joney English</h3>
+          <span>80min | Comedy</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming6.jpeg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>WarCrafet</h3>
+          <span>120min | Action</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming1.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Rampage</h3>
+          <span>108min | Adventure</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming6.jpeg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Airon Lady</h3>
+          <span>120min | Comedy</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming3.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Justice League</h3>
+          <span>120min | Adventure</span>
+        </div>
+      </div>
+      <div class="row mt-4 mx-auto justify-content-center mt-4 boxes">
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming1.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Doctor Strange</h3>
+          <span>120min | Adventure</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming3.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Captain Marvel</h3>
+          <span>120min | Adventure</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming6.jpeg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Black Widow</h3>
+          <span>90min | Action</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming1.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Ant Man</h3>
+          <span>110min | Adventure</span>
+        </div>
+        <div class="box col-12 col-sm-5 col-md-4 col-lg-2">
+          <div class="w-100">
+            <img src="img/coming3.jpg" class="w-100 h-100" alt="" />
+          </div>
+          <h3>Guardiance Of The Galaxy</h3>
+          <span>120min | Adventure</span>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------- News ------------------------------------------->
+    <section
+      id="newsletter"
+      class="news mx-auto d-flex flex-column align-items-center justify-content-center gap-5"
+    >
+      <h2 class="text-white fs-3 fw-medium text-center">
+        Subscribe To Get <br />
+        Newsletter
+      </h2>
+      <form class="d-flex align-items-center p-3 bg-white rounded-3">
+        <input
+          class="email border-0"
+          type="email"
+          placeholder="Enter Email..."
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          class="btn text-white px-3 py-2 text-uppercase fw-medium rounded-3"
+        />
+      </form>
+    </section>
+    <!------------------------------------------- Footer ------------------------------------------->
+    <section
+      class="footer mx-auto d-flex justify-content-between align-items-center"
+    >
+      <a
+        href="index.html"
+        class="logo fs-5 fw-medium d-flex gap-2 align-items-center text-decoration-none text-white"
+      >
+        <i class="fa-solid fa-film fs-4"></i> Movies
+      </a>
+      <div class="social-icons d-flex align-items-center gap-2">
+        <a href="#" class="text-center fs-2 bg-white rounded-circle">
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="#" class="text-center fs-2 bg-white rounded-circle"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#" class="text-center fs-2 bg-white rounded-circle"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="#" class="text-center fs-2 bg-white rounded-circle"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+      </div>
+    </section>
+    <!------------------------------------------- Copyrights ------------------------------------------->
+    <div class="copy text-center text-white">
+      <p>&#169; <span>Web Masters</span> All Right Reserved.</p>
+    </div>
+    <!-- JS Files -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
